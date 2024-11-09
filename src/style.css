@@ -1,0 +1,1338 @@
+/* Color Code Theme For Webiste : #191970 */
+
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.theme-color {
+    color: #B0C4DE;
+}
+
+.theme-bg-color {
+    background-color: #001c36 !important;
+}
+
+/* Buttons */
+
+.btn-theme-fill {
+    background-color: #001c36;
+    color: white;
+    border: 0;
+    /* border-radius: 4px; */
+    padding: 8px 20px;
+    transition: 0.4s ease all;
+    border: 1px solid black;
+}
+
+.btn-theme-fill:hover {
+    border: 1px solid #0e102c;
+    background-color: #0e102c;
+}
+
+.btn-theme-outline {
+    background-color: white;
+    border: 1px solid #000000;
+    /* border-radius: 4px; */
+    padding: 8px 20px;
+    color: black;
+    transition: 0.4s ease all;
+}
+
+.btn-theme-outline>a{
+    color: black;
+}
+
+.btn-theme-outline:hover {
+    background-color: #0e102c;
+    border: 1px solid #0e102c;
+    color: white;
+}
+
+.btn-theme-outline:hover>a{
+    color: white;
+}
+
+
+.login-btn {
+    color: rgb(255, 255, 255);
+    transition: 0.4s ease all;
+}
+
+.login-btn:hover {
+    color: #B0C4DE;
+}
+
+.reg-btn{
+    background-color: #121435;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+    padding: 8px 20px;
+    border: 1px solid #B0C4DE;
+    transition: 0.4s ease all;
+}
+
+.reg-btn:hover{
+    background-color: #0b0c22;
+}
+
+.btn-w-dyn {
+    width: auto;
+}
+
+.back-btn {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 4px 8px;
+    transition: 0.4s all ease;
+}
+
+.back-btn:hover {
+    background-color: #B0C4DE;
+}
+
+@media screen and (max-width: 328px) {
+    .btn-w-dyn {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* -- HEADER CSS STARTS FROM HERE -- */
+
+.navbar {
+    border-bottom: 2px solid #B0C4DE;
+    padding: 0px !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 9999;
+    background-color: #121435;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.nav-links {
+    text-decoration: none !important;
+    color: #B0C4DE;
+    font-weight: 600;
+    padding: 0px 10px;
+    transition: 0.4s ease all;
+}
+
+@media screen and (max-width:1150px) {
+    .nav-links {
+        padding: 0px !important;
+    }
+
+    .logo {
+        margin: 0px !important;
+    }
+}
+
+.nav-links i {
+    font-size: 24px;
+}
+
+.nav-links:hover {
+    color: #b0c4de8c;
+
+}
+
+/* -- HEADER CSS ENDS FROM HERE -- */
+
+
+
+
+
+/* -- Css For Home Component Starts From Here -- */
+
+.hero-section {
+    display: flex;
+    align-content: center;
+    height: 87.8vh;
+}
+
+.bg-image-home-build{
+    background-image: url(https://images.pexels.com/photos/618079/pexels-photo-618079.jpeg?cs=srgb&dl=pexels-apasaric-618079.jpg&fm=jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.bg-image-home-build::after{
+    content: '';
+    background-color: #0e102cc9;
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home-build-btn button{
+    background-color: #fff;
+    color: black;
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: 0;
+    transition: 0.8s ease all;
+
+}
+
+.home-build-btn button:hover{
+    background-color: #ffffff;
+}
+
+.hero-section h1 {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .hero-section {
+        display: inline-block;
+        height: auto;
+    }
+
+    .hero-section h1 {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .hero-section h1 {
+        margin-top: 20px;
+    }
+
+}
+
+.services {
+    background-color: #B0C4DE;
+    padding: 50px 20px;
+}
+
+.round-service {
+    border: 1px solid #6a798d;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+}
+
+.round-service i {
+    color: #22272e;
+}
+
+.round-service:hover {
+    background-color: #6a798d;
+}
+
+.currency-card {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.flag-icon {
+    width: 25px;
+    margin-left: 10px;
+}
+.exchange-rate {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+.exchange-rate strong {
+    color: green;
+}
+
+/* -- Css For Home Component Ends -- */
+
+
+
+
+/* -- Css For Online Banking Starts From Here -- */
+
+.balance {
+    text-align: center;
+    background-color: #B0C4DE;
+    border-bottom: 2px solid gray;
+    padding: 10px 0px 5px 0px;
+}
+
+.profit {
+    color: rgb(0, 192, 0) !important;
+    font-size: 18px;
+    position: relative;
+    font-weight: 500;
+}
+
+.loss {
+    color: red !important;
+    font-size: 18px;
+    position: relative;
+    font-weight: 500;
+}
+
+.pay-box {
+    border-radius: 12px;
+    background-color: #00284e;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #B0C4DE;
+    padding: 15px 20px;
+    margin: 20px 10px;
+    height: 160px;
+}
+
+.visacard-box {
+    border-radius: 12px;
+    background: linear-gradient(135deg, #000 10%, #1a1a1a 30%, #d4af37 100%);
+    border: 1px solid #b8860b;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 10px;
+    height: 160px;
+}
+
+.progress-bar.visa {
+    background-color: #b8860b;
+}
+
+.mastercard-box {
+    border-radius: 12px;
+    background: linear-gradient(135deg, #8B0000 40%, #660000 80%, #2C2C2C);
+    border: 1px solid #8B0000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px 20px;
+    margin: 20px 10px;
+    height: 160px;
+}
+
+.progress-bar.mastercard {
+    background-color: #440000;
+}
+
+.add-box {
+    border-radius: 12px;
+    background-color: #d6d3d3;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px 20px;
+    margin: 20px 10px;
+    height: 160px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.add-box:hover {
+    background-color: #333232;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.add-icon-box {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 6px 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.add-icon-box:hover {
+    background-color: #c0c0c0;
+    border-color: #a0a0a0;
+}
+
+.lifted-text-code {
+    color: white !important;
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.6),
+        0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Send Bill */
+
+.bill-card {
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #fff, #e2e8f0);
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.bill-p {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* Send/Transfer Money Section */
+
+.money-card {
+    position: relative;
+    margin: 10px 0px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.money-card::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background-color: #00284e;
+    top: 0;
+    left: 0;
+    transition: 0.2s all ease;
+}
+
+.transaction-card {
+    position: relative;
+    margin: 10px 0px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.transaction-card::before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: #00284e;
+    top: 0;
+    left: 0;
+    transition: 0.2s all ease;
+}
+
+.money-card:hover,
+.transaction-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.transaction-card:hover::before {
+    height: 15px;
+}
+
+.money-card:hover::before {
+    width: 15px;
+}
+
+.money-card .icon {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.transaction-card .icon {
+    position: relative;
+    bottom: 2px;
+    font-size: 0.7rem;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.money-card .icon::before {
+    padding: 10px;
+    border: 2px solid #001c36;
+    background-color: #00284e;
+    border-radius: 50px;
+}
+
+.transaction-card .icon::before {
+    padding: 3px 5px;
+    border: 2px solid #001c36;
+    background-color: #00284e;
+    border-radius: 50px;
+}
+
+
+.money-card h5,
+.transaction-card h5 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #001c36;
+}
+
+.money-selector-container {
+    padding-top: 68px;
+}
+
+.bg-light-lighter {
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+}
+
+
+/* -- Css For Online Banking Component Ends -- */
+
+
+
+
+/* -- Css For Investment Starts From Here -- */
+
+.sidebar {
+    position: sticky;
+    top: 0%;
+    background-color: #0b0c22;
+    color: #001c36;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    box-shadow: 5px 0px 10px rgb(95, 95, 95);
+}
+
+.sidebar-header h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff !important;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.sidebar-menu h5 {
+    color: #4d4d4d !important;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.sidebar-menu label {
+    color: #cecece;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 80%;
+    margin: 3px 0;
+    cursor: pointer;
+    padding: 8px;
+    transition: 0.6s all ease;
+    position: relative; 
+}
+
+.sidebar-menu label:hover {
+    width: 100%;
+    background-color: #0e102c; 
+    border-radius: 8px;
+}
+
+.sidebar-menu label input {
+    display: none; 
+}
+
+.custom-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    margin-right: 10px; 
+    background-color: transparent;
+    position: relative;
+    top: 3px;
+}
+
+.sidebar-menu label input:checked + .custom-checkbox::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    border: solid #ffffff; 
+    border-width: 0 2px 2px 0;
+    top: 2px;
+    left: 6px;
+    transform: rotate(45deg);
+}
+
+.investment-card {
+    background: linear-gradient(90deg, #0b0c22, #1a1c4a);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+.investment-card .card-title {
+    position: relative;
+    z-index: 2;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 468px) {
+    .investment-card .card-title {
+        font-size: 1.3rem;
+    }
+}
+
+.investment-card .card-title-before {
+    position: absolute;
+    color: #ffffff18;
+    font-size: 3.5rem;
+    font-weight: 600;
+    top: -14px;
+    left: -10px;
+}
+
+.card-body {
+    display: flex;
+    align-items: stretch;
+    height: 170px;
+}
+
+.card-text {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 279px) {
+    .card-text {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 467px) {
+    .card-text {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 468px) and (max-width: 767px) {
+    .card-text {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1170px) {
+    .card-text {
+        margin-top: 60px;
+    }
+}
+
+.inv-card-amount {
+    position: absolute;
+    top: -2px;
+    right: 40px;
+    color: rgb(194, 194, 194) !important;
+}
+
+.balance-card {
+    padding: 6px 16px 1px 14px;
+    border-radius: 8px;
+    color: white;
+    background-color: #1a1c4a;
+}
+
+.vertical-button {
+    writing-mode: vertical-rl;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    background-color: #0e102c;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.vertical-button:hover {
+    background-color: #0b0c22;
+}
+
+/* -- Css For Investment Component Ends -- */
+
+
+
+
+
+/* -- Css For Loan Starts From Here -- */
+
+.loan-input-detail{
+    background-color: #d9e2f096;
+    padding: 20px;
+}
+
+.loan-input-detail input{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.loan-restricted-input{
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.loan-input-detail input:focus{
+    border: 2px solid #B0C4DE;
+    outline: none;
+}
+
+.loan-input-detail label{
+    margin-top: 18px;
+    margin-bottom: 6px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.simple-interest .button {
+    position: relative;
+    width: 100%;
+    height: 33px;
+    margin: 0.5rem 0 0;
+    padding: 10px;
+    padding-bottom: 32px;
+    background-color: #001c36;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.25s;
+    overflow: hidden;
+  }
+
+  .simple-interest .button:before {
+    content: "Calculate";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .simple-interest .button.loading:before, .simple-interest .button.loading:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .simple-interest .button.loading:before {
+    content: "LOADING";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 1;
+  }
+  
+  .simple-interest .button.loading:after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color: #2ecc71;
+    animation: loading 2s ease;
+    z-index: 0;
+  }
+
+  @keyframes loading {
+    100% {
+      width: 100%;
+    }
+  }
+
+  .simple-interest .button:hover {
+    background-color: #0b0c22;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+/* -- Css For Loan Component Ends -- */
+
+
+
+
+
+/* -- Css For Donation Starts From Here -- */
+
+.donation-box {
+    background-color: white;
+}
+
+/* Popper Css */
+
+.cannon {
+    height: 100vh;
+    width: 1px;
+    position: relative;
+    transform-origin: 50% 100%;
+    animation: cannon-explosion 1.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) both;
+    animation-iteration-count: 1; 
+}
+
+/* Keyframes for Cannon Explosion */
+@keyframes cannon-explosion {
+    0% {
+        transform: scale(0.2) rotate(-45deg);
+    }
+    80% {
+        opacity: 1;
+        transform: scale(1) rotate(-45deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(-45deg);
+    }
+}
+
+.cannon__path {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform-origin: 50% 100%;
+    padding-bottom: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cannon__path--lg {
+    height: 100%;
+}
+
+.cannon__path--md {
+    height: 95%;
+}
+
+.cannon__path--sm {
+    height: 90%;
+}
+
+.cannon__path--angle-2 {
+    transform: rotate(-15deg);
+}
+
+.cannon__path--angle-1 {
+    transform: rotate(-7.5deg);
+}
+
+.cannon__path--angle1 {
+    transform: rotate(7.5deg);
+}
+
+.cannon__path--angle2 {
+    transform: rotate(15deg);
+}
+
+.cannon__confetti {
+    flex: 0 1 auto;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+.cannon__confetti:nth-child(even) {
+    animation-name: confetti-rotate-l;
+}
+
+@keyframes confetti-rotate-l {
+    0% {
+        transform: rotate(0) scaleY(1);
+    }
+    50% {
+        transform: rotate(2turn) scaleY(1.5);
+    }
+    100% {
+        transform: rotate(2.05turn) scaleY(1);
+    }
+}
+
+.cannon__confetti:nth-child(odd) {
+    animation-name: confetti-rotate-r;
+}
+
+@keyframes confetti-rotate-r {
+    0% {
+        transform: rotate(0) scaleY(1);
+    }
+    50% {
+        transform: rotate(-2turn) scaleY(1.5);
+    }
+    100% {
+        transform: rotate(-2.05turn) scaleY(1);
+    }
+}
+
+.cannon__confetti--ribbon {
+    height: 1em;
+    width: 0.5em;
+    border-radius: 0.1em;
+}
+
+.cannon__confetti--flake {
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+}
+
+.cannon__confetti--color-1 {
+    background-color: #feb535;
+}
+
+.cannon__confetti--color-2 {
+    background-color: #bea4ff;
+}
+
+.cannon__confetti--color-3 {
+    background-color: #ff6e83;
+}
+
+.cannon__confetti--color-4 {
+    background-color: #58cafe;
+}
+
+.party-popper {
+    overflow: hidden;
+    position: fixed;
+    right: 5%;
+    bottom: 5vh;
+    font-size: 2em;
+    transform: rotate(-90deg);
+    z-index: 99999;
+}
+
+.cannon {
+    position: fixed;
+    bottom: 5vh;
+    right: 5%;
+    transform: rotate(-45deg);
+    transform-origin: 50% 100%;
+    animation: cannon-explosion 4s cubic-bezier(0.18, 0.89, 0.32, 1.88) both;
+    animation-iteration-count: 1;
+    z-index: 99999;
+}
+
+.modal{
+    animation: modal 2s cubic-bezier(0.18, 0.89, 0.32, 1.88) both;
+}
+
+@keyframes modal{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* -- Css For Donation Component Ends -- */
+
+
+
+
+
+/* -- Css For Login / Register Starts From Here -- */
+
+.input-target-border:focus{
+    outline: none;
+    border-color: #00284e !important;
+    transition: 0.6s all ease;
+}
+
+.bg-login{
+    background-color: rgb(216, 216, 216);
+    height: 100vh;
+    width: 100%;
+}
+
+.login-form-box{
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(160, 160, 160);
+}
+
+/* -- Css For Login / Register Component Ends -- */
+
+
+
+
+
+/* -- Css For Profile Starts From Here -- */
+
+.profile-headbox{
+    padding: 8px 15px 6px 10px;
+    border-radius: 8px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: black !important;
+}
+
+.profile-headbox:hover{
+    background-color: #89a6ca60;
+}
+
+/* -- Css For Profile Component Ends -- */
+
+
+
+
+
+/* -- Css For Send Money Starts From Here -- */
+
+.head-for-send-money {
+    background-color: #001c36;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.transfer-card {
+    background-color: rgba(255, 255, 255, 0.616);
+    position: relative;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.39);
+    border-radius: 20px 20px 6px 6px;
+    width: 100%;
+    padding-bottom: 40px;
+    backdrop-filter: blur(20px);
+}
+
+.transfer-card>i {
+    position: absolute;
+    top: 52px;
+    left: 29.5%;
+    font-size: 88px;
+    color: #00284e;
+    padding: 18px 13px;
+    width: 90px;
+    height: 90px;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.input-group-text {
+    background-color: #001c36 !important;
+    color: white !important;
+}
+
+.transfer-card-heading {
+    padding: 50px 0px !important;
+    color: #ffffff !important;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+
+}
+
+.transfer-details {
+    padding: 0px 50px;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .transfer-details {
+        padding: 0px 20px;
+    }
+
+}
+
+.transfer-details input:focus {
+    outline: none;
+    border: 1px solid #001c36 !important;
+    border-radius: 4px;
+    box-shadow: none !important;
+}
+
+.transfer-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #00284e;
+    color: #B0C4DE;
+    transition: 0.8s ease background-color;
+}
+
+.transfer-button-icon {
+    position: relative;
+    color: #B0C4DE;
+}
+
+.transfer-button:hover {
+    background-color: #001c36;
+}
+
+.transfer-details .fa-arrow-right {
+    padding: 0px 6px;
+}
+
+input.name-capitalize {
+    text-transform: capitalize;
+}
+
+.name-capitalize {
+    text-transform: capitalize;
+}
+
+/* -- Css For Send Money Component Ends -- */
+
+
+
+
+/* -- Css For Transaction Starts From Here -- */
+
+.top-tab {
+    background-color: white;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 20px rgb(192, 192, 192);
+}
+
+.table th {
+    color: rgb(161, 161, 161) !important;
+    font-weight: 500;
+}
+
+.table-cols tr td {
+    transition: 0.4s all ease;
+}
+
+.table-cols tr:hover strong {
+    color: #89a6ca !important;
+}
+
+/* -- Css For Transaction Component Ends -- */
+
+
+
+
+/* -- Css For Success From Here -- */
+
+.success-card {
+    position: relative;
+    box-shadow: 0px 0px 15px #06335f77;
+    border-radius: 20px;
+    width: 420px !important;
+    padding: 20px 0px;
+}
+
+.success-card>i {
+    box-shadow: 0px 0px 15px #06335f77;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    font-size: 60px;
+    color: #B0C4DE;
+    border: 2px solid #00284e;
+    background-color: #00284e;
+    border-radius: 50px;
+    padding: 20px 22px;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+}
+
+.success-card h3 {
+    padding-top: 70px;
+    padding-bottom: 15px;
+    color: #00284e;
+    font-weight: 700;
+}
+
+.success-card h1,
+.success-card h4,
+.success-card h2,
+.success-card h5,
+.success-card p {
+    color: #00284e !important;
+}
+
+
+.success-box {
+    background-color: rgb(236, 236, 236);
+    padding: 20px 0px;
+    margin: 0px 20px;
+    border-radius: 20px;
+}
+
+.success-card-btn {
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #00284e;
+    color: white;
+    transition: 0.8s ease background-color;
+}
+
+.success-card-btn:hover {
+    background-color: #001c36;
+}
+
+.success-card-btn i {
+    position: relative;
+    color: white;
+    z-index: 2;
+    top: 0;
+    padding: 10px;
+}
+
+.success-card-btn i::before {
+    top: -2px;
+    left: 20px;
+    position: absolute;
+    background-color: #001c36;
+    box-shadow: 0px 0px 15px #000000;
+    border-radius: 50px;
+    height: 30px;
+    padding: 6px;
+    width: 30px;
+    z-index: 1;
+}
+
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.spinner {
+    border: 8px solid #001c36;
+    border-top: 8px solid #fff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+.loader-text {
+    color: white;
+    font-size: 1rem;
+}
+
+
+/* -- Css For Success Component Ends -- */
+
+
+
+
+/* -- Css For Help From Here -- */
+
+.help-center{
+    position: absolute;
+}
+
+.help-center-icon{
+    color: #00284e;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.help-center-icon::before{
+    background: #b0c4de42;
+    border-radius: 50px;
+    padding: 15px 20px;
+    transition: 0.5s ease all;
+}
+
+.help-center-icon:hover::before{
+    background: #B0C4DE;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.helpline-box{
+    box-shadow: 0px 0px 20px #cfcfcf;
+    text-align: center;
+}
+
+.helpline-box i{
+    color: #00284e;
+    font-size: 26px;
+    padding: 12px 12px;
+    border: 2px dotted #00284e;
+    border-radius: 50px;
+}
+
+/* -- Css For Help Component Ends -- */
+
+
+
+
+/* -- Css For Footer Starts From Here -- */
+
+.main-footer {
+    background-color: #B0C4DE;
+    border-top: 1px solid #666666;
+    padding: 50px 10px;
+}
+
+.copyright-footer {
+    border-top: 1px solid #666666;
+    padding: 10px 20px;
+    background-color: #B0C4DE;
+    color: black;
+}
+
+.footer-link {
+    color: black !important;
+}
+
+.footer-link:hover {
+    padding: 4px 0px;
+    color: #6d6d6d !important;
+    border-bottom: 1px solid #6d6d6d;
+}
+
+.help-ser-icon {
+    color: rgba(0, 0, 0, 0.664) !important;
+    position: relative;
+    top: 4px;
+}
+
+.footer-contact {
+    color: black !important;
+
+}
+
+.footer-p {
+    color: black !important;
+
+}
+
+.main-footer h3 {
+    color: #000;
+}
+
+
+/* -- Css For Footer Ends -- */
